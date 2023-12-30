@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sign_nav_graph"
+    app:startDestination="@id/signInModeFragment">
+    <fragment
+        android:id="@+id/signInModeFragment"
+        android:name="com.edu.info.fragments.SignInModeFragment"
+        android:label="fragment_sign_in_mode"
+        tools:layout="@layout/fragment_sign_in_mode" >
+        <action
+            android:id="@+id/action_signInModeFragment_to_adminSignInFragment"
+            app:destination="@id/adminSignInFragment" />
+        <action
+            android:id="@+id/action_signInModeFragment_to_stuSignInFragment"
+            app:destination="@id/stuSignInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/adminSignInFragment"
+        android:name="com.edu.info.fragments.AdminSignInFragment"
+        android:label="fragment_admin_sign_in"
+        tools:layout="@layout/fragment_admin_sign_in" >
+        <action
+            android:id="@+id/action_adminSignInFragment_to_adminSignUpFragment"
+            app:destination="@id/adminSignUpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/stuSignInFragment"
+        android:name="com.edu.info.fragments.StuSignInFragment"
+        android:label="fragment_stu_sign_in"
+        tools:layout="@layout/fragment_stu_sign_in" >
+        <action
+            android:id="@+id/action_stuSignInFragment_to_stuSignUpFragment"
+            app:destination="@id/stuSignUpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/stuSignUpFragment"
+        android:name="com.edu.info.fragments.StuSignUpFragment"
+        android:label="fragment_stu_sign_up"
+        tools:layout="@layout/fragment_stu_sign_up" />
+    <fragment
+        android:id="@+id/adminSignUpFragment"
+        android:name="com.edu.info.fragments.AdminSignUpFragment"
+        android:label="fragment_admin_sign_up"
+        tools:layout="@layout/fragment_admin_sign_up" />
+</navigation>

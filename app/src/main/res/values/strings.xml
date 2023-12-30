@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">EduInfo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="student">Student</string>
+    <string name="teacher">Teacher</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_up_capital_letters">SIGN UP</string>
+    <string name="have_you_got_an_account">Have you got an account?</string>
+    <string name="login">LOGIN</string>
+    <string name="sifremi_unuttum">Şifremi Unuttum</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="enter_your_email_address">Enter your e-mail address</string>
+    <string name="student_login">Student Login</string>
+    <string name="teacher_login">Teacher Login</string>
+    <string name="student_sign_up">Student Sign Up</string>
+    <string name="enter_your_username">Enter your username</string>
+    <string name="confirm_your_password">Confirm your password</string>
+    <string name="teacher_sign_up">Teacher Sign Up</string>
+    <string name="username">username</string>
+    <string name="exit_desc">Are you sure you want to log out of your account?</string>
+    <string name="exitstring">Log out</string>
+    <string name="cancelstring">Cancel</string>
+    <string name="my_scores">My Scores</string>
+    <string name="math">Math:</string>
+    <string name="physics">Physics:</string>
+    <string name="literature">Literature:</string>
+    <string name="geography">Geography:</string>
+    <string name="economics">Economics:</string>
+    <string name="sociology">Sociology:</string>
+    <string name="chemistry">Chemistry:</string>
+    <string name="absence_status">My Absence Status</string>
+    <string name="absenteeism">Absenteeism:</string>
+    <string name="student_scores">Student Scores</string>
+    <string name="student_absence_status">Student Absence Status</string>
+    <string name="send">Send</string>
+
+
+</resources>
